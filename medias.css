@@ -1,0 +1,152 @@
+@media (max-width: 800px) {
+    html {
+      background-color: white;
+  /*ENCABEZADO*/
+      #logo{
+        display: none;
+      }
+      #logo-mobile{
+        display:inline;
+      }
+      .links {
+        grid-template-columns: 1fr;
+        .idiomas {
+          grid-template-columns: 1fr;
+          justify-items: end;
+  
+          a {
+            display: none;
+          }
+        }
+          .registro {
+            display: none;
+          }
+        }
+        .contenido{
+          display: none;
+        }
+
+ @media(max-width: 700px){
+          #titulos{
+           
+            top: 400px;
+          
+          
+          }
+        }
+
+@media(max-width : 500px){
+
+.seccion{
+  grid-template-columns: 1fr;
+  .contenido{
+    display: none;
+  }
+  
+  .galeria{
+    .primera{
+      display: none;
+    }
+    .segunda{
+      grid-column: span 10;
+    }
+    .tercera{
+      grid-column: span 2;
+    }
+    .textos{
+      display: none;
+    }
+  }
+}
+
+}
+/*redes*/
+@media(max-width: 500px){
+  #redes{
+    display: none;
+  }
+/*galeria 2*/
+ @media(max-width: 900px){
+          section{
+            grid-template-columns: repeat(3,1fr);
+          }
+        }
+@media(max-width: 700px){
+          section{
+            grid-template-columns: repeat(2,1fr);
+          }
+          }
+@media(max-width: 500px){
+            section{
+              grid-template-columns: 1fr;
+              
+            }
+            h4,h7{
+              display: none;
+            }
+            }
+
+
+            /*footer*/
+
+@media(max-width: 700px){
+footer {
+.gris{
+display: none;
+}
+
+.negro{
+  .enlaces{
+    grid-template-columns: repeat(2,1fr);
+
+    .medio{
+      margin-top: 15px;
+      justify-self: baseline;
+      font-size: 18px;
+      font-weight: lighter;
+      color: #aaa;
+    }
+  
+    .primera{
+      grid-column: span 2;
+    }
+    .ultima{
+      text-align: left;
+      justify-self: baseline;
+      grid-column: span 2;
+      margin-top: 30px;
+
+      .correo{
+        display: none;
+      }
+    }
+  
+  }
+  .copy{
+    display: none;
+  }
+}
+}
+}
+@media(max-width: 700px){
+  footer {   
+    margin-top: 5px;
+  }
+}
+@media(max-width: 700px){
+  .contCuadro {   
+    top: 650px;
+  }
+}
+    }
+  }
+
+
+}
+@media(max-width: 700px){
+  
+#buscarContenedor{
+ 
+  top:100px;       
+}
+}
